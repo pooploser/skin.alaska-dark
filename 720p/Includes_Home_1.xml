@@ -425,7 +425,7 @@
 									<scroll>false</scroll>
 									<label>Season $INFO[ListItem.Season]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>FF41383C</textcolor>
+									<textcolor>white</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle) + ListItem.Type(episode)</visible>
 									<animation effect="fade" start="0" end="60" time="400" condition="true">Conditional</animation>
@@ -439,7 +439,7 @@
 									<scroll>false</scroll>
 									<label>Episode $INFO[ListItem.Episode]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>FF41383C</textcolor>
+									<textcolor>white</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle) + ListItem.Type(episode)</visible>
 									<animation effect="fade" start="0" end="60" time="400" condition="true">Conditional</animation>
@@ -519,7 +519,7 @@
 									<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 									<texture background="true">osd/cdcover_mask.png</texture>
 									<visible>!Skin.HasSetting(hideposterborders)</visible>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
 									</animation>
@@ -554,7 +554,7 @@
 									<scroll>false</scroll>
 									<label>Season $INFO[ListItem.Season]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle) + ListItem.Type(episode)</visible>
 									<animation effect="fade" start="0" end="60" time="400" condition="true">Conditional</animation>
@@ -568,7 +568,7 @@
 									<scroll>false</scroll>
 									<label>Episode $INFO[ListItem.Episode]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle) + ListItem.Type(episode)</visible>
 								</control>
@@ -582,7 +582,7 @@
 								<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 								<texture>osd/cdcover_mask.png</texture>
 								<visible>ListItem.Type(movie)</visible>
-								<colordiffuse>FFC11B17</colordiffuse>
+								<colordiffuse>FF009ACD</colordiffuse>
 								<animation type="Focus" reversible="false">
 									<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
 								</animation>
@@ -618,7 +618,7 @@
 							<label>$INFO[Container(11001).ListItem(0).Artist] &#xB7; </label>
 							<font>SearchResult</font>
 							<scroll>false</scroll>
-							<textcolor>FFFFFFFF</textcolor>
+							<textcolor>white</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="200">auto</width>
 							<visible>ControlGroup(7002).HasFocus + !IsEmpty(Container(11001).ListItem(0).Artist)</visible>
@@ -628,7 +628,7 @@
 							<label>$INFO[Container(11001).ListItem(0).Album] &#xB7; </label>
 							<font>SearchResultSmaller</font>
 							<scroll>false</scroll>
-							<textcolor>FFFFFFFF</textcolor>
+							<textcolor>white</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="200">auto</width>
 							<visible>ControlGroup(7002).HasFocus + !IsEmpty(Container(11001).ListItem(0).Album)</visible>
@@ -780,7 +780,7 @@
 									<scroll>false</scroll>
 									<label>Season $INFO[ListItem.Season]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>FF41383C</textcolor>
+									<textcolor>white</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle)</visible>
 									<animation effect="fade" start="0" end="60" time="400" condition="true">Conditional</animation>
@@ -794,7 +794,7 @@
 									<scroll>false</scroll>
 									<label>Episode $INFO[ListItem.Episode]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>FF41383C</textcolor>
+									<textcolor>white</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle)</visible>
 									<animation effect="fade" start="0" end="60" time="400" condition="true">Conditional</animation>
@@ -952,7 +952,7 @@
 									<height>122</height>
 									<texture background="true">osd/cdcover_mask.png</texture>
 									<aspectratio aligny="top">stretch</aspectratio>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<visible>ListItem.Type(album)</visible>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="119" time="400" tween="back" easing="out" />
@@ -991,7 +991,7 @@
 									<height>182</height>
 									<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 									<texture background="true">osd/cdcover_mask.png</texture>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
 									</animation>
@@ -1025,7 +1025,7 @@
 									<scroll>false</scroll>
 									<label>Season $INFO[ListItem.Season]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle)</visible>
 									<animation effect="fade" start="0" end="70" time="400" condition="true">Conditional</animation>
@@ -1039,7 +1039,7 @@
 									<scroll>false</scroll>
 									<label>Episode $INFO[ListItem.Episode]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle)</visible>
 									<animation effect="fade" start="0" end="80" time="400" condition="true">Conditional</animation>
@@ -1065,7 +1065,7 @@
 									<height>82</height>
 									<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 									<texture background="true">osd/cdcovermask.png</texture>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
 									</animation>
@@ -1108,7 +1108,7 @@
 									<scroll>false</scroll>
 									<label>Season $INFO[ListItem.Season]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle)</visible>
 									<animation effect="fade" start="0" end="60" time="400" condition="true">Conditional</animation>
@@ -1122,7 +1122,7 @@
 									<scroll>false</scroll>
 									<label>Episode $INFO[ListItem.Episode]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>!IsEmpty(ListItem.TVShowTitle)</visible>
 									<animation effect="fade" start="0" end="80" time="400" condition="true">Conditional</animation>
@@ -1139,7 +1139,7 @@
 									<height>182</height>
 									<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 									<texture background="true">osd/cdcover_mask.png</texture>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
 										<effect type="fade" start="80" end="100" time="400" />
@@ -1163,13 +1163,13 @@
 								<visible>ListItem.Type(movie) + !Control.IsVisible(11001)</visible>
 								<control type="image">
 									<posx>34</posx>
-									<posy>0</posy>
+									<posy>-1</posy>
 									<width>122</width>
 									<height>182</height>
 									<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 									<texture background="true">osd/cdcover_mask.png</texture>
 									<visible>ListItem.Type(movie)</visible>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
 									</animation>
@@ -1268,7 +1268,7 @@
 							<label>$INFO[Container(11000).ListItem(0).Artist]</label>
 							<font>SearchResult</font>
 							<scroll>false</scroll>
-							<textcolor>FF000000</textcolor>
+							<textcolor>white</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="400">auto</width>
 							<visible>ControlGroup(7004).HasFocus + Container(11000).ListItem(0).Type(album)</visible>
@@ -1278,7 +1278,7 @@
 							<label> - $INFO[Container(11000).ListItem(0).Album]</label>
 							<font>SearchResult</font>
 							<scroll>false</scroll>
-							<textcolor>FF000000</textcolor>
+							<textcolor>white</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="400">auto</width>
 							<visible>ControlGroup(7004).HasFocus + Container(11000).ListItem(0).Type(album) + !IsEmpty(Container(11000).ListItem(0).Album)</visible>
@@ -1288,7 +1288,7 @@
 							<label>, $INFO[Container(11000).ListItem(0).Year]</label>
 							<font>SearchResult</font>
 							<scroll>false</scroll>
-							<textcolor>FF000000</textcolor>
+							<textcolor>white</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="400">auto</width>
 							<visible>ControlGroup(7004).HasFocus + Container(11000).ListItem(0).Type(album) + !IsEmpty(Container(11000).ListItem(0).Year)</visible>
@@ -1349,7 +1349,7 @@
 						<onup>300</onup>
 						<ondown>11003</ondown>
 						<font>Font_Decktitle</font>
-						<textcolor>FF505050</textcolor>
+						<textcolor>white</textcolor>
 						<width>350</width>
 						<height>30</height>
 						<posy>490</posy>
@@ -1509,7 +1509,7 @@
 								<width>140</width>
 								<height>110</height>
 								<aspectratio scalediffuse="true" aligny="top">scale</aspectratio>
-								<bordertexture>episodeFrameSmallred.png</bordertexture>
+								<bordertexture>episodeFrameSmallFF009ACD.png</bordertexture>
 								<bordersize>3</bordersize>
 								<texture diffuse="episodeMaskSmall.png" background="true">$INFO[ListItem.Thumb]</texture>
 								<visible>ListItem.Type(episode)</visible>
@@ -1551,7 +1551,7 @@
 									<aspectratio scalediffuse="true" align="center">stretch</aspectratio>
 									<texture background="true">osd/cdcover_mask.png</texture>
 									<visible>ListItem.Type(clip) + Control.IsVisible(11003)</visible>
-									<colordiffuse>88FF0000</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" start="100" end="107" center="100,100" time="150" tween="cubic" easing="in" />
 									</animation>
@@ -1597,7 +1597,7 @@
 									<scroll>true</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>ListItem.Type(clip)</visible>
 									<animation effect="fade" start="0" end="80" time="400" condition="true">Conditional</animation>
@@ -1611,7 +1611,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Property(sourceTitle)]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<animation effect="fade" start="0" end="80" time="400" condition="true">Conditional</animation>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>ListItem.Type(clip)</visible>
@@ -1781,7 +1781,7 @@
 							<onup>300</onup>
 							<ondown>11002</ondown>
 							<font>Font_Decktitle</font>
-							<textcolor>FF505050</textcolor>
+							<textcolor>white</textcolor>
 							<width>350</width>
 							<height>30</height>
 							<posy>490</posy>
@@ -1995,7 +1995,7 @@
 									<height>122</height>
 									<texture background="true">osd/cdcover_mask.png</texture>
 									<aspectratio aligny="top">stretch</aspectratio>
-									<colordiffuse>FFC11B17</colordiffuse>
+									<colordiffuse>FF009ACD</colordiffuse>
 									<visible>ListItem.Type(channel)</visible>
 									<animation type="Focus" reversible="false">
 										<effect type="zoom" center="auto" start="80" end="109" time="400" tween="back" easing="out" />
@@ -2055,7 +2055,7 @@
 									<scroll>true</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>SearchResultSmaller</font>
-									<textcolor>red</textcolor>
+									<textcolor>FF009ACD</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<visible>ListItem.Type(channel)</visible>
 								</control>
@@ -2302,7 +2302,7 @@
 							<label>$INFO[Container(11002).ListItem(0).Title]</label>
 							<font>SearchResult</font>
 							<scroll>false</scroll>
-							<textcolor>red</textcolor>
+							<textcolor>FF009ACD</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="400">auto</width>
 							<visible>ControlGroup(7003).HasFocus + Container(11002).ListItem(0).Type(clip)</visible>
@@ -2322,7 +2322,7 @@
 							<label> &#xB7; $INFO[Container(11002).ListItem(0).Property(sourceTitle)]</label>
 							<font>SearchResult</font>
 							<scroll>false</scroll>
-							<textcolor>red</textcolor>
+							<textcolor>FF009ACD</textcolor>
 							<wrapmultiline>false</wrapmultiline>
 							<width min="1" max="200">auto</width>
 							<visible>ControlGroup(7003).HasFocus + !IsEmpty(Container(11002).ListItem(0).Property(sourceTitle)) + Container(11002).ListItem(0).Type(clip)</visible>

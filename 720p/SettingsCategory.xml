@@ -80,7 +80,7 @@
 			<font>Font_Settings3</font>
 			<textcolor>MenuValue</textcolor>
 			<texturefocus border="1">ButtonFo.png</texturefocus>
-			<focusedcolor>Black</focusedcolor>
+			<focusedcolor>white</focusedcolor>
 			<animation type="Focus" reversible="false">
 				<effect type="zoom" start="100" end="110" time="200"/>
 			</animation>

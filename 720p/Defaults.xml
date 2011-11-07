@@ -9,7 +9,7 @@
 		<textcolor>Grey</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
 		<selectedcolor>MenuValueFO</selectedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 		<scroll>false</scroll>
 	</default>
 
@@ -35,7 +35,7 @@
 		<textcolor>MenuValue</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
 		<selectedcolor>MenuValueFO</selectedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 		<texturefocus>ButtonFo.png</texturefocus>
 		<texturenofocus>ButtonNF.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
@@ -52,7 +52,7 @@
 		<font>Font_Settings</font>
 		<textcolor>MenuValue</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 		<pulseonselect>false</pulseonselect>
 	    <texturenofocus>arrowupnf.png</texturenofocus>
 		<texturefocus>arrowupfo.png</texturefocus>
@@ -73,7 +73,7 @@
 		<font>Font_Settings</font>
 		<textcolor>Grey</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 		<texturenofocus>-</texturenofocus>
 		<texturefocus>ButtonFo.png</texturefocus>
 		<textureradiofocus>settings/button_radioF.png</textureradiofocus>
@@ -97,14 +97,14 @@
 		<texturenofocus>ButtonNF.png</texturenofocus>
 		<texturefocus>ButtonFo.png</texturefocus>
 		<textureup>ArrowUpNF.png</textureup>
-		<textu99151B8Down>ArrowDownNF.png</textu99151B8Down>
+		<texturedown>ArrowDownNF.png</texturedown>
 		<textureupfocus>ArrowUpFo.png</textureupfocus>
-		<textu99151B8Downfocus>ArrowDownFo.png</textu99151B8Downfocus>
+		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
 		<colordiffuse>ButtonFilterColor</colordiffuse>
 		<textcolor>Grey</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
 		<selectedcolor>MenuValueFO</selectedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 		<align>left</align>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -121,7 +121,7 @@
 		<textcolor>Grey</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
 		<selectedcolor>MenuValueFO</selectedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 		<align>left</align>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -148,7 +148,7 @@
 		<textcolor>Grey</textcolor>
 		<focusedcolor>MenuValueFO</focusedcolor>
 		<selectedcolor>MenuValueFO</selectedcolor>
-		<disabledcolor>99151B8D</disabledcolor>
+		<disabledcolor>red</disabledcolor>
 	</default>
 
 	<default type="slider">

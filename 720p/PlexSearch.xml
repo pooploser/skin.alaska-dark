@@ -18,12 +18,6 @@
       <visible>System.SearchInProgress</visible>
       <posx>52</posx>
       <posy>556</posy>
-      <control type="image">
-        <texture>ActivityIndicator.gif</texture>
-	<colordiffuse>33E0FFFF</colordiffuse>
-        <width>32</width>
-        <height>32</height>
-      </control>
       <control type="label">
         <label>Searching...</label>
 	<font>Font_Panel</font>
@@ -716,7 +710,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.Title]</label>
           				<font>SearchResult</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           			<control type="label">
@@ -728,7 +722,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.Year]</label>
           				<font>SearchResultSmaller</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -820,7 +814,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.Title]</label>
           				<font>MediumSmallTitleFont</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -926,7 +920,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.tvshowtitle]</label>
           				<font>SearchResult</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           			<control type="label">
@@ -938,7 +932,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.title]</label>
           				<font>SearchResultSmaller</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -1031,7 +1025,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.Title]</label>
           				<font>SearchResult</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -1136,7 +1130,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.artist]</label>
           				<font>SearchResult</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           			<control type="label">
@@ -1148,7 +1142,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.title]</label>
           				<font>SearchResultSmaller</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -1253,7 +1247,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.artist]</label>
           				<font>SearchResult</font>
-          				<textcolor>red</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           			<control type="label">
@@ -1265,7 +1259,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.title]</label>
           				<font>SearchResultSmaller</font>
-          				<textcolor>red</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -1357,7 +1351,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.Title]</label>
           				<font>MediumSmallTitleFont</font>
-          				<textcolor>red</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           		</focusedlayout>
@@ -1480,7 +1474,7 @@
           				<scroll>false</scroll>
           				<label>$INFO[ListItem.title]</label>
           				<font>SearchResult</font>
-          				<textcolor>FFFF0000</textcolor>
+          				<textcolor>FF009ACD</textcolor>
           				<wrapmultiline>false</wrapmultiline>
           			</control>
           			<control type="label">

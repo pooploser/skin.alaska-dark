@@ -45,7 +45,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<font>Font_Settings3</font>
-					<textcolor>Black</textcolor>
+					<textcolor>white</textcolor>
 					<align>left</align>
 					<label>$INFO[ListItem.Label]</label>
 					<animation type="Focus" reversible="false">

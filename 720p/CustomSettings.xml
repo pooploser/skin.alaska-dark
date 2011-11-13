@@ -291,6 +291,17 @@
 
 			</control>
 
+		<control type="textbox">
+			<posx>1</posx>
+				<posy>1</posy>
+				<width>300</width>
+				<height>200</height>
+				<orientation>horizontal</orientation>
+				<info>This textbox</info>
+				<font>Font_EpisodePlot</font>
+				<textcolor>white</textcolor>
+				<visible>Control.HasFocus(601)</visible>
+			</control>
 
 			<control type="grouplist" id="9006">
 				<visible>Container(9000).Hasfocus(6)</visible>
@@ -331,6 +342,7 @@
 					<alttexturenofocus>-</alttexturenofocus>
 					<alttexturefocus>-</alttexturefocus>
 				</control>
+
 				<control type="radiobutton" id="601">
 					<width>740</width>
 					<font>Font_Settings</font>

@@ -29,7 +29,7 @@
 		<include>Global_Filter</include>
 		
 		<include>Object_MovieInfoLines</include>
-		<include>menu_objects3</include>
+		<include>menu_objects2</include>
 		<include>Viewtype_Poster</include>
 		<include>Viewtype_Poster2</include>
 		<include>Viewtype_Fanart</include>

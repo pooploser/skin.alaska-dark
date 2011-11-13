@@ -302,7 +302,18 @@
 				<onup>9006</onup>
 				<ondown>9006</ondown>
 				<include>Animation_CommonFadeNoHide</include>
-				<control type="togglebutton" id="600">
+				<control type="radiobutton" id="600">
+					<width>740</width>
+					<font>Font_Settings</font>
+					<textcolor>MenuValue</textcolor>
+					<focusedcolor>MenuValueFO</focusedcolor>
+					<label>$LOCALIZE[32978]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<onclick>Skin.ToggleSetting(fanart_nowplaying)</onclick>
+					<selected>Skin.HasSetting(fanart_nowplaying)</selected>
+				</control>
+				<control type="togglebutton" id="604">
 					<posx>100</posx>
 					<width>740</width>
 					<font>Font_Settings</font>

@@ -35,6 +35,17 @@
 				<aspectratio>keep</aspectratio>
 				<include>Animation_CommonFade</include>
 			</control>
+				<control type="largeimage">
+					<posx>0</posx>
+					<posy>-10</posy>
+					<width>1280</width>
+					<height>720</height>
+					<texture>$INFO[MusicPlayer.property(fanart_image)]</texture>
+					<aspectratio>keep</aspectratio>	
+					<include>Animation_CommonFade</include>
+					<visible>Skin.HasSetting(fanart_nowplaying)</visible>
+				</control>
+
 			<!-- end artist slideshow -->
 		
 			<control type="image">

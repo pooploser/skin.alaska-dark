@@ -22,7 +22,7 @@
 				<colordiffuse>HomeFrameColor</colordiffuse>
 			</control>
 			<control type="image">
-				<width>380</width>
+				<width>290</width>
 				<height>60</height>
 				<posx>60</posx>
 				<texture>mainmenu/submenu_mid.png</texture>
@@ -31,7 +31,7 @@
 			<control type="image">
 				<width>20</width>
 				<height>60</height>
-				<posx>440</posx>
+				<posx>350</posx>
 				<texture>mainmenu/submenu_right.png</texture>
 				<colordiffuse>HomeFrameColor</colordiffuse>
 			</control>
@@ -45,11 +45,6 @@
 				<onup>50</onup>
 				<ondown>7001</ondown>
 				<orientation>horizontal</orientation>
-				<control type="button" id="11">
-					<include>submenubutton</include>
-					<label>20410</label>
-					<enable>!IsEmpty(ListItem.Trailer)</enable>
-				</control>
 				<control type="button" id="5">
 					<posx>3</posx>
 					<include>submenubutton</include>

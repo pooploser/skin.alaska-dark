@@ -291,17 +291,6 @@
 
 			</control>
 
-		<control type="textbox">
-			<posx>1</posx>
-				<posy>1</posy>
-				<width>300</width>
-				<height>200</height>
-				<orientation>horizontal</orientation>
-				<info>This textbox</info>
-				<font>Font_EpisodePlot</font>
-				<textcolor>white</textcolor>
-				<visible>Control.HasFocus(601)</visible>
-			</control>
 
 			<control type="grouplist" id="9006">
 				<visible>Container(9000).Hasfocus(6)</visible>
@@ -324,6 +313,7 @@
 					<onclick>Skin.ToggleSetting(fanart_nowplaying)</onclick>
 					<selected>Skin.HasSetting(fanart_nowplaying)</selected>
 				</control>
+
 				<control type="togglebutton" id="604">
 					<posx>100</posx>
 					<width>740</width>
@@ -445,6 +435,18 @@
 					<selected>Skin.HasSetting(debuggrid)</selected>
 				</control>
 			</control>
+		<control type="textbox">
+			<posx>1</posx>
+				<posy>1</posy>
+				<width>300</width>
+				<height>200</height>
+				<orientation>horizontal</orientation>
+				<info>This textbox</info>
+				<font>Font_EpisodePlot</font>
+				<textcolor>white</textcolor>
+				<visible>Container(9006).HasFocus(604)</visible>
+			</control>
+
 		</control>
 
 		<!-- arrows for long lists -->

@@ -133,8 +133,7 @@
 			<label>Home.xml</label>
 			<visible>Skin.HasSetting(debugmode)</visible>
 		</control>
-		<include condition="!Skin.HasSetting(OnDeckdef)">New_list1</include>
-		<include condition="Skin.HasSetting(OnDeckdef)">New_list2</include>
+		<include>New_lists</include>
 		<include>Global_Time_Home</include>
 		<include>Global_RSS</include>
 		<include>Object_DebugGrid</include>

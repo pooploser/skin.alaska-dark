@@ -114,9 +114,19 @@
 					<label>$LOCALIZE[31927]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textoffsetx>25</textoffsetx>
 					<onclick>Skin.ToggleSetting(OSD_Time_switch_position)</onclick>
 					<selected>Skin.HasSetting(OSD_Time_switch_position)</selected>
+				</control>
+				<control type="radiobutton" id="108">
+					<width>740</width>
+					<font>Font_Settings</font>
+					<textcolor>MenuValue</textcolor>
+					<focusedcolor>MenuValueFO</focusedcolor>
+					<label>$LOCALIZE[31928]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<onclick>Skin.ToggleSetting(OnDeckdef)</onclick>
+					<selected>Skin.HasSetting(OnDeckdef)</selected>
 				</control>
 			</control>
 			<control type="grouplist" id="9003">

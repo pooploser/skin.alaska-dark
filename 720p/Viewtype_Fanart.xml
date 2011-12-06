@@ -110,7 +110,7 @@
 					<texture background="true" fallback="special://skin/media/backdrops/movies.jpg" diffuse="osd/cdcover_mask.png">$INFO[ListItem.Icon]</texture>
 					<fadetime>200</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<include>Animation_PosterInfoSlide</include>
+					<include>Animation_PosterInfoSlideFan</include>
 				</control>
 				<control type="image">
 					<posx>-5</posx>

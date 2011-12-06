@@ -60,26 +60,29 @@
 				<posy>28</posy>
 				<animation effect="slide" start="130,0" end="130,0" time="0" tween="cubic" easing="out" condition="VideoPlayer.Content(episodes)">Conditional</animation>
 				<control type="label">
-					<posx>0</posx>
+					<posx>20</posx>
 					<posy>0</posy>
-					<width>510</width>
+					<width>650</width>
 					<height>40</height>
 					<font>Font_PosterTitle</font>
 					<label>$INFO[VideoPlayer.Title]</label>
 					<textcolor>NowPlayingTrack</textcolor>
 					<scroll>true</scroll>
+					<visible>!VideoPlayer.Content(movies)</visible>
 				</control>
 				<control type="label">
-					<posx>0</posx>
-					<posy>40</posy>
-					<width>510</width>
-					<font>Font_ListDetail</font>
-					<label>[B]$INFO[VideoPlayer.Director]</label>
-					<textcolor>NowPlayingArtist</textcolor>
-					<visible>!VideoPlayer.Content(episodes)</visible>
+					<posx>20</posx>
+					<posy>0</posy>
+					<width>650</width>
+					<height>40</height>
+					<font>Font_PosterTitle</font>
+					<label>$INFO[VideoPlayer.Title] ($INFO[VideoPlayer.Year])</label>
+					<textcolor>NowPlayingTrack</textcolor>
+					<scroll>true</scroll>
+					<visible>VideoPlayer.Content(movies)</visible>
 				</control>
 				<control type="label">
-					<posx>0</posx>
+					<posx>20</posx>
 					<posy>40</posy>
 					<width>510</width>
 					<textcolor>OSDPlayingTrack</textcolor>
@@ -89,47 +92,6 @@
 				</control>
 			</control>
 		<!-- Movie Info Needs more work -->
-			<control type="group">
-				<visible>VideoPlayer.Content(Movies)</visible>
-				<posx>1260</posx>
-				<posy>20</posy>
-				<control type="label">
-					<description>Year Info</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>600</width>
-					<height>18</height>
-					<aligny>center</aligny>
-					<align>right</align>
-					<textcolor>NowPlayingArtist</textcolor>
-					<font>Font_OSDDetail</font>
-					<label>Year: $INFO[VideoPlayer.Year]</label>
-				</control>
-				<control type="label">
-					<description>Director Info</description>
-					<posx>0</posx>
-					<posy>20</posy>
-					<width>600</width>
-					<height>18</height>
-					<aligny>center</aligny>
-					<align>right</align>
-					<textcolor>NowPlayingArtist</textcolor>
-					<font>Font_OSDDetail</font>
-					<label>Director: $INFO[VideoPlayer.Director]</label>
-				</control>
-				<control type="label">
-					<description>Genre Info</description>
-					<posx>0</posx>
-					<posy>40</posy>
-					<width>600</width>
-					<height>18</height>
-					<aligny>center</aligny>
-					<align>right</align>
-					<textcolor>NowPlayingArtist</textcolor>
-					<font>Font_OSDDetail</font>
-					<label>Genre: $INFO[VideoPlayer.Genre]</label>
-				</control>
-			</control>
 		</control>
 	<!--Cover / Now Playing-->
 		<control type="group">

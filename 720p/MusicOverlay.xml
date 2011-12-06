@@ -36,8 +36,7 @@
 				<width>530</width>
 				<height>185</height>
 				<texture diffuse="osd/cdcover_mask.png">osd/cdcover_mask_copy.png</texture>
-				<colordiffuse>55E0FFFF</colordiffuse>
-				<bordersize>8</bordersize>
+				<colordiffuse>77000000</colordiffuse>
 				<aspectratio>scale</aspectratio>
 				<animation type="Conditional" condition="Window.IsActive(2006) | Window.IsActive(120)">
 					<effect type="zoom" center="35,180" start="100" end="155" time="400" tween="cubic" easing="out" />
@@ -86,7 +85,7 @@
 			</control>
 			<control type="label">
 				<visible>!Window.IsActive(2006)</visible>
-				<posx>375</posx>
+				<posx>373</posx>
 				<posy>99</posy>
 				<width>328</width>
 				<font>Font_ListDetail</font>

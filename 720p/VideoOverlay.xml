@@ -23,16 +23,13 @@
 			<posx>560</posx>
 			<posy>510</posy>
 			<control type="image">
-				<posx>165</posx>
-				<posy>-10</posy>
-				<width>530</width>
-				<height>185</height>
+				<posx>60</posx>
+				<posy>-4</posy>
+				<width>630</width>
+				<height>178</height>
 				<texture diffuse="osd/cdcover_mask.png">osd/cdcover_mask_copy.png</texture>
-				<colordiffuse>55E0FFFF</colordiffuse>
-				<bordersize>8</bordersize>
-				<aspectratio>scale</aspectratio>
+				<colordiffuse>77000000</colordiffuse>
 				<animation type="Conditional" condition="Window.IsActive(2006) | Window.IsActive(120)">
-					<effect type="zoom" center="35,180" start="100" end="155" time="400" tween="cubic" easing="out" />
 					<effect type="slide" start="0,0" end="12,5" time="400" tween="cubic" easing="out" />
 				</animation>
 			</control>
@@ -42,7 +39,6 @@
 				<height>166</height>
 				<texture>common/black.png</texture>
 				<bordertexture border="8">common/thumb_border.png</bordertexture>
-				<bordersize>8</bordersize>
 				<aspectratio>stretch</aspectratio>
 			</control>
 			<control type="videowindow" id="1">
@@ -53,11 +49,11 @@
 				<height>150</height>
 			</control>
 			<control type="label">
-				<posx>280</posx>
+				<posx>278</posx>
 				<posy>120</posy>
 				<width>1034</width>
 				<font>Font_ListDetail</font>
-				<label>[B]$LOCALIZE[31004][/B]</label>
+				<label>[B]$LOCALIZE[31004]:[/B]</label>
 				<textcolor>NowPlayingArtist</textcolor>
 				<animation effect="slide" end="0,-20" condition="VideoPlayer.Content(episodes)">Conditional</animation>
 				<animation effect="slide" start="0,0" end="0,-40" time="200" condition="Window.IsActive(PlayerControls)">Conditional</animation>
@@ -69,13 +65,15 @@
 				<align>right</align>
 				<font>Font_ListDetail</font>
 				<label>[B]$INFO[VideoPlayer.Title][/B]</label>
+				<scroll>true</scroll>
 				<textcolor>NowPlayingTrack</textcolor>
 				<animation effect="slide" start="0,0" end="0,-40" time="200" condition="Window.IsActive(PlayerControls)">Conditional</animation>
 			</control> 
 			<control type="label">
-				<posx>300</posx>
+				<posx>386</posx>
 				<posy>120</posy>
-				<width>1034</width>
+				<width>210</width>
+				<align>right</align>
 				<font>Font_ListDetail</font>
 				<label>$INFO[VideoPlayer.TVShowTitle]</label>
 				<textcolor>NowPlayingTrack</textcolor>
